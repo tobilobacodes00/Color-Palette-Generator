@@ -6,7 +6,7 @@ A playful and interactive web app that generates random color codes, displays th
 
 ## Live Preview
 
-[View the app live!](https://your-live-link-here.com)
+[View the app live!]((https://tobilobacodes00.github.io/Color-Palette-Generator/))
 
 ---
 
