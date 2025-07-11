@@ -1,0 +1,71 @@
+$bg: #0f0f0f;
+$primary: #1e1e2f;
+$text: #fff;
+$btn-bg: linear-gradient(to right, #4facfe, #00f2fe);
+$transition: 0.3s ease;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: $bg;
+  color: $text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: $primary;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 1rem auto;
+  border-radius: 15px;
+  transition: $transition;
+  box-shadow: 0 0 10px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.color-code {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  background: $btn-bg;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: $transition;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00f2fe;
+}
+
+.info {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
